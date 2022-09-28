@@ -16,6 +16,6 @@ jobs:
           python train.py
           
           echo "## Model Output" >> report.md
-          cat metrics.txt >> report.md
+          cat hello.txt >> report.md
           cml-send-comment report.md
         
