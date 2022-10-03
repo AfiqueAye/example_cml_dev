@@ -19,5 +19,6 @@ jobs:
           cat metrics.txt >> report.md 
           cml-publish plot.png --md >> report.md
           #cml-send-comment report.md
-          cml check create  report.md
+          #cml check create  report.md
+          cml send-github-check report.md
         
